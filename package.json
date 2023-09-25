@@ -70,13 +70,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bigyanpoudel/converse-chatbot"
+    "url": "https://github.com/senal99/converseChatBot"
   },
   "keywords": [],
-  "author": "bigyan poudel",
+  "author": "senal",
   "bugs": {
-    "url": "https://github.com/bigyanpoudel/converse-chatbot/issues"
+    "url": "https://github.com/senal99/converseChatBot/issues"
   },
-  "homepage": "https://github.com/bigyanpoudel/converse-chatbot#readme",
   "license": "MIT"
 }

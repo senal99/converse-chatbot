@@ -22,13 +22,13 @@ export default defineConfig((configEnv) => ({
   ],
   build: {
     lib: {
-      entry: resolve('src', 'main.ts'),
+      entry: resolve('src', 'main.tsx'),
       name: 'converse-chatbot',
       formats: ['es', 'umd'],
       fileName: (format) => `converse-chatbot.${format}.js`,
     },
     rollupOptions: {
-      external: [...Object.keys(packageJson.dependencies)],
+      external: [...Object.keys(packageJson.peerDependencies)],
     },
   },
 }))
