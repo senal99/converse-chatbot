@@ -1,4 +1,4 @@
 import './index.css'
 
-export type { IHelloWorld } from './components/HelloWorld'
-export { Helloworld } from './components/HelloWorld'
+export type { Message } from './components/ChatBot'
+export { Chatbot } from './components/ChatBot'
