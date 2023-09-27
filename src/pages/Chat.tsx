@@ -1,8 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import * as React from 'react';
+import { useState, useEffect } from 'react';
 import { Button } from "../../src/components/ui/button"
 import { Input } from "../../src/components/ui/input"
 import { Eraser, User2, Bot } from 'lucide-react';
-import { ThreeDots } from 'react-loader-spinner'
+// import { ThreeDots } from 'react-loader-spinner'
 import api from '../api/api';
 import colors from '../app/colors'; 
 
@@ -158,11 +159,12 @@ const Chatbot: React.FC = () => {
               {/* <AvatarImage src={botIsmage} alt="@shadcn" /> */}
               <AvatarFallback className='bg-gray-200'><Bot /></AvatarFallback>
             </Avatar>
-            <ThreeDots
+            {/* <ThreeDots
               height="40"
               width="40"
               color="gray"
-            />
+            /> */}
+            Typing..
           </div>
           : ""}
       </div>

@@ -6,7 +6,7 @@ import { useState } from "react";
 
 
 
-function App() {
+export function App() {
   const [openChat, setOpenChat] = useState(false);
 
   return (
@@ -24,5 +24,3 @@ function App() {
     </>
   )
 }
-
-export default App;
