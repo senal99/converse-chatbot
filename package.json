@@ -1,5 +1,5 @@
 {
-  "name": "@converse-chatbot",
+  "name": "converse-chatbot",
   "module": "dist/index.es.js",
   "files": [
     "dist"
